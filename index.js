@@ -675,6 +675,58 @@ const books = [
     overview:
       "The lives of three young people as they grapple with power, treachery, love, and the devastating consequences of unchecked greed, on a journey that may cost them their lives―and their hearts.",
   },
+  {
+    id: "53",
+    title: "The Eye of the World",
+    author: "Robert Jordan",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/71SGsrQY+yL._UF1000,1000_QL80_.jpg",
+    published_date: "Jan-1990",
+    category: "Fantasy",
+    pages: "832",
+    availability: "Goodreads, Amazon/Flipkart",
+    overview:
+      "Moiraine Damodred arrives in Emond's Field on a quest to find the one prophesized to stand against The Dark One, a malicious entity sowing the seeds of chaos ...",
+  },
+  {
+    id: "54",
+    title: "The Great Hunt",
+    author: "Robert Jordan",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/91+MEBLzSnL._AC_UF1000,1000_QL80_.jpg",
+    published_date: "Nov-1990",
+    category: "Fantasy",
+    pages: "736",
+    availability: "Goodreads, Amazon/Flipkart",
+    overview:
+      "The saga continues as Rand is faced with the daunting task of saving his friend, while a new enemy arrives from across the sea.",
+  },
+  {
+    id: "55",
+    title: "The Dragon Reborn",
+    author: "Robert Jordan",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/819ALkS4tbL._UF1000,1000_QL80_.jpg",
+    published_date: "Sep-1991",
+    category: "Fantasy",
+    pages: "704",
+    availability: "Goodreads, Amazon/Flipkart",
+    overview:
+      "The Dragon Reborn—the leader long prophesied who will save the world, but in the saving destroy it; the savior who will run mad and kill all ...",
+  },
+  {
+    id: "56",
+    title: "The Shadow Rising",
+    author: "Robert Jordan",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/81vGo-V9azL._AC_UF1000,1000_QL80_.jpg",
+    published_date: "Sep-1992",
+    category: "Fantasy",
+    pages: "1008",
+    availability: "Goodreads, Amazon/Flipkart",
+    overview:
+      "Rand al'Thor journeys to the Aiel Waste and visits Rhuidean, returning with marks proving his identity as He Who Comes With The Dawn. As prophesied, he ...",
+  },
 ];
 
 app.get("/books", (request, response) => {
